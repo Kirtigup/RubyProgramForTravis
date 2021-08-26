@@ -1,9 +1,11 @@
 language: ruby
-ruby:
+rvm:
   - 2.5
   - 2.6
   - jruby
   - truffleruby
+  - 8.1
+  - 8.2
 script:
   - ruby RubyProgram.rb
  
